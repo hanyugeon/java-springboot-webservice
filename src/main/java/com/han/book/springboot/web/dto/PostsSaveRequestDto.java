@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 
 @Getter
 @NoArgsConstructor
-public class PostsSaveRequestDto {
+public class PostsSaveRequestDto {  // api를 만들기 위한 3가지 클래스 중 1 (Dto)
     private String title;
     private String content;
     private String author;

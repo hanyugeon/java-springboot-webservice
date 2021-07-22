@@ -11,7 +11,7 @@ import javax.persistence.Id;
 
 @Getter
 @NoArgsConstructor
-@Entity
+@Entity // Entity Class!!! (107p, 108p)
 
 public class Posts {
 

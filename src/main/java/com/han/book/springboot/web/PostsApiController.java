@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RequiredArgsConstructor
 @RestController
-public class PostsApiController {
+public class PostsApiController {   // api를 만들기 위한 3가지 클래스 중 1 (Controller)
 
     private final PostsService postsService;
 

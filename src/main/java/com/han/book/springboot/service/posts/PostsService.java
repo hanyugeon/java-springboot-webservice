@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @RequiredArgsConstructor
 @Service
-public class PostsService {
+public class PostsService { // api를 만들기 위한 3가지 클래스 중 1 (Service)
 
     private final PostsRepository postsRepository;
 
