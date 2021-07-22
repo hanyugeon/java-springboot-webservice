@@ -1,4 +1,5 @@
 package com.han.book.springboot.domain.posts;
+import com.han.book.springboot.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,7 +14,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @Entity // Entity Class!!! (107p, 108p)
 
-public class Posts {
+public class Posts extends BaseTimeEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -40,3 +41,4 @@ public class Posts {
     }
 
 }
+
