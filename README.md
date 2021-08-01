@@ -29,3 +29,17 @@ dto, service, controller / entity 클래스에 대한 자세한 내용 {
     https://gmlwjd9405.github.io/2018/12/25/difference-dao-dto-entity.html
 
 }
+
+# // 21. 08. 01
+
+4장 복습 {
+
+    서버 템플릿과 클라이언트 템플릿 : java에서 사용될 때는 서버 템플릿 엔진, js에서는 클라이언트 템플릿 (4장에서 사용한 서버 템플릿 엔진은 mustache)
+    
+    js/css 선언 위치를 다르게 : mustache를 이용하여 js는 footer에 / css는 header에 선언하여 웹사이트 로딩 속도를 향상시킴.
+
+    js 객체를 이용하여 전역 변수 충돌 문제를 회피 : var index
+
+    mustache가 아니더라도 Thymeleaf나 Free-marker 등의 본인의 기호에 맞춰 복습하는것도 좋다고 한다.
+    
+}
