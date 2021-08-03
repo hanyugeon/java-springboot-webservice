@@ -43,3 +43,11 @@ dto, service, controller / entity 클래스에 대한 자세한 내용 {
     mustache가 아니더라도 Thymeleaf나 Free-marker 등의 본인의 기호에 맞춰 복습하는것도 좋다고 한다.
     
 }
+
+# // 21.08.03
+
+개인정보 보안 {
+
+    application.oauth.properties와 같은 파일은 중요한 개인정보들이 노출될 수 있으므로 잊지말고 .gitignore에 추가하자.
+
+}
