@@ -51,3 +51,15 @@ dto, service, controller / entity 클래스에 대한 자세한 내용 {
     application.oauth.properties와 같은 파일은 중요한 개인정보들이 노출될 수 있으므로 잊지말고 .gitignore에 추가하자.
 
 }
+
+# // 21.08.09
+
+Annotation 기반으로한 개선작업 {
+
+    일반적인 프로그래밍에서 개선이 필요한 나쁜 코드는 가장 대표적으로 같은 코드가 반복되는 부분이다!
+
+    반복 해서 작성한다면 이후에 수정이 필요할 때 모든 부분을 하나씩 찾아가며 수정해야하는 일이 생겨 유지보수성이 떨어진다.
+
+    참고문서 : https://palyoung.tistory.com/72
+
+}
