@@ -87,3 +87,15 @@ ArgumentResolver 이용하기(본책 195p ~ 200p) {
     (세션이 풀림)
 
 }
+
+# // 21.08.16
+
+내가 이 책을 보는 이유? {
+
+    sean : 서버-디비-배포, 풀 싸이클을 경험 할 수 있는 좋은 책
+
+    best practice! : 1.test code, 2.DB, 3.배포
+    
+    외부자료 : https://coconutstd.github.io/posts/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%EC%99%80-aws%EB%A1%9C-%ED%98%BC%EC%9E%90-%EA%B5%AC%ED%98%84%ED%95%98%EB%8A%94-%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4/
+
+}
