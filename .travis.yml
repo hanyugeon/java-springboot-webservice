@@ -40,3 +40,5 @@ notifications:
   email:
     recipients:
       - hanyugeon@naver.com
+
+# 빌드 하라고(2트)
