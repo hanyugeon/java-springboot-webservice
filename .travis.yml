@@ -23,8 +23,8 @@ before_deploy:
   - mv java-springboot-webservice.zip deploy/java-springboot-webservice.zip
 
 deploy:
-  - provider: S3
-    access_key_id $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
+  - provider: s3
+    access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
 
     secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
 
@@ -41,4 +41,4 @@ notifications:
     recipients:
       - hanyugeon@naver.com
 
-# 빌드 하라고(2트)
+# 빌드 하라고(3트)
