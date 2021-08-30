@@ -43,8 +43,9 @@ deploy:
     bucket: hanyugeon-springboot-build # S3 버킷
     key: java-springboot-webservice.zip # 빌드 파일을 압축해서 저장
 
-    bundle_type: zip # 압축 확장자
-    application_group: java-springboot-webservice-group # 웹 콘솔에서 등록한 CodeDeploy 배포 그룸
+    bundle_type: zip
+    application: java-springboot-webservice # 웹 콘솔에서 등록한 CodeDeploy 애플리케이션
+    deployment_group: java-springboot-webservice-group # 웹 콘솔에서 등록한 CodeDeploy 배포 그룸
     region: ap-northeast-2
     wait-until-deployed: true
 
