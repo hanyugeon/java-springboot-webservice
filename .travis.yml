@@ -41,7 +41,7 @@ deploy:
     secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
 
     bucket: hanyugeon-springboot-build # S3 버킷
-    key: java-springboot-webservice.zip # 빌드 파일을 압축해서 저장
+    key: java-springboot-webservice.zip # 빌드 파일을 압축해서 전달
 
     bundle_type: zip
     application: java-springboot-webservice # 웹 콘솔에서 등록한 CodeDeploy 애플리케이션
@@ -55,4 +55,4 @@ notifications:
     recipients:
       - hanyugeon@naver.com
 
-# 빌드 하라고(3트)
+# 제발 성공적으로 빌드해주세요...(4트)(ec2 태그대로 codedeploy안에 지정해놓은 태그도 수정 함)
