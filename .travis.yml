@@ -37,9 +37,11 @@ deploy:
 
   - provider: codedeploy
     access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
+
     secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
+
     bucket: hanyugeon-springboot-build # S3 버킷
-    key: hanyugeon-springboot-webservice.zip # 빌드 파일을 압축해서 저장
+    key: java-springboot-webservice.zip # 빌드 파일을 압축해서 저장
 
     bundle_type: zip # 압축 확장자
     application_group: java-springboot-webservice-group # 웹 콘솔에서 등록한 CodeDeploy 배포 그룸
