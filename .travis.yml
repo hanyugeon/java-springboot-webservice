@@ -59,4 +59,4 @@ notifications:
     recipients:
       - hanyugeon@naver.com
 
-# 제발 성공적으로 빌드해주세요...(4트)(ec2 태그대로 codedeploy안에 지정해놓은 태그도 수정 함)
+# retry_01
