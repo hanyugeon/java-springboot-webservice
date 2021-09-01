@@ -20,7 +20,7 @@ apply plugin: 'io.spring.dependency-management'  // 스프링 부트의 의존�
 // 위 4개의 플러그인은 자바, 스프링 부트를 이용하기 위한 필수 플러그인!
 
 group 'com.han.book'
-version '1.0-SNAPSHOT'
+version '1.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 
 repositories {
