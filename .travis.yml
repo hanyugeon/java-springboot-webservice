@@ -59,4 +59,4 @@ notifications:
     recipients:
       - hanyugeon@naver.com
 
-# retry_01
+# retry_07 ㅈ됐다 아무거나 막 고치다가 이제 배포자체가 안된다 ㅈ같다.
